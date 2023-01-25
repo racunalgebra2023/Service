@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/startServiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start service!" />
+
+    <Button
+        android:id="@+id/testButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test!" />
+
+    <Button
+        android:id="@+id/stopService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stopaj servis!" />
+
+    <Button
+        android:id="@+id/startIntentService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Startaj intent servis!" />
+
+    <Button
+        android:id="@+id/startJobIntentService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Startaj job servis!" />
+
+    <Button
+        android:id="@+id/startMyWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Startaj Posao!" />
+
+</LinearLayout>
